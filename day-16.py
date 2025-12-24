@@ -1,43 +1,22 @@
-
-#import another_module
-#print(another_module.another_var)
-
-
-# from turtle import Turtle, Screen
-#
-# timmy=Turtle()
-# print(timmy)
-# timmy.color("red","yellow")
-# timmy.shape("turtle")
-# timmy.forward(100)
-# timmy.right(90)
+# class Origin :
+#     def __init__(self,origin):
+#         self.origin=origin
 #
 #
+# class Cars:
+#     def __init__(self,name,price,origin):
+#         self.name = name
+#         self.price = price
+#         self.origin=origin
 #
+#     #def __str__(self):
+#        # return f"{self.name} | Price:{self.price} | Origin:{self.origin}"
 #
-# my_screen=Screen()
-# print(my_screen.canvheight)
+# origin1=Origin("Stuttgart")
+# c1=Cars("Porsche","2CR", "origin1")
+# c2=Cars("BMW","3CR","Berlin")
 #
-# my_screen.exitonclick()
-
-from  prettytable import PrettyTable
-
-
-table = PrettyTable()
-
-
-table.add_column("Pokemon name",["Pikachu","charmander","Squirtle"])
-
-
-table.add_column("Pokemon type",["Electric","water","Fire"])
-
-
-table.align="c"
-
-print(table)
-
-
-
+# print(c2.name,c2.origin,c2.price)
 
 
 
