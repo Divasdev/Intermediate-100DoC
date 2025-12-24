@@ -9,14 +9,24 @@
 #         self.price = price
 #         self.origin=origin
 #
-#     #def __str__(self):
-#        # return f"{self.name} | Price:{self.price} | Origin:{self.origin}"
+#     def __str__(self):
+#         return f"{self.name} | Price:{self.price} | Origin:{self.origin}"
 #
 # origin1=Origin("Stuttgart")
 # c1=Cars("Porsche","2CR", "origin1")
 # c2=Cars("BMW","3CR","Berlin")
 #
-# print(c2.name,c2.origin,c2.price)
+# print(c1)
+
+
+
+
+
+
+
+
+
+
 
 
 
