@@ -4,6 +4,8 @@ tim = Turtle()
 screen = Screen()
 
 
+tim.shape("turtle")
+tim.color("green")
 def move_forwards():
     tim.forward(20)
 
@@ -14,7 +16,7 @@ def move_anticlockwise():
     tim.forward(20)
     tim.left(20)
 def move_clockwise():
-    tim.forward(20)
+    # tim.forward(20)
     tim.right(20)
 def clear():
     tim.clear()
