@@ -3,13 +3,6 @@ from turtle import Screen
 from player import Player
 from car_manager import CarManager
 from scoreboard import Scoreboard
-
-
-
-
-
-
-#Create a turtle player that starts at the bottom of the screen and listen for the "Up" keypress to move the turtle north
 screen = Screen()
 car=CarManager()
 player=Player()
@@ -22,8 +15,6 @@ screen.tracer(0)
 
 game_is_on = True
 while game_is_on:
-
-
     car.create_car()
     car.move_car()
     for single_car in car.all_cars:
