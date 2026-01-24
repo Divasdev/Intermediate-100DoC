@@ -1,4 +1,4 @@
-
+from turtle import Turtle
 import pandas
 # data=pandas.read_csv("weather_data.csv")
 # print(type(data))
@@ -27,25 +27,29 @@ import pandas
 # data.to_csv("new_data.csv")
 # print(data)
 #
+#
+#
+# data=pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20260124.csv")
+# grey=len(data[data["Primary Fur Color"]=="Gray"])
+# red=len(data[data["Primary Fur Color"]=="Cinnamon"])
+# black=len(data[data["Primary Fur Color"]=="Black"])
+# print(grey)
+# print(red)
+# print(black)
+#
+#
+# data_dit={
+#     "Fur Color":["Grey","Cinnamon","Black"],
+#
+#     "count":[grey,red,black]
+#
+#
+# }
+#
+# df=pandas.DataFrame(data_dit)
+# df.to_csv("sq_count.csv")
 
 
-data=pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20260124.csv")
-grey=len(data[data["Primary Fur Color"]=="Gray"])
-red=len(data[data["Primary Fur Color"]=="Cinnamon"])
-black=len(data[data["Primary Fur Color"]=="Black"])
-print(grey)
-print(red)
-print(black)
 
 
-data_dit={
-    "Fur Color":["Grey","Cinnamon","Black"],
-
-    "count":[grey,red,black]
-
-
-}
-
-df=pandas.DataFrame(data_dit)
-df.to_csv("sq_count.csv")
 
