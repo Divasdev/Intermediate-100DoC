@@ -13,7 +13,7 @@ correct_guess=[]
 while len(correct_guess) < 50:
     user_state = screen.textinput(f"{len(correct_guess)}/50 States Correct", "What's another state name?").strip().title()
     if user_state == "Exit":
-        break
+            break
 
 
     state_data=pandas.read_csv("50_states.csv")
@@ -32,5 +32,11 @@ while len(correct_guess) < 50:
         writer.write(user_state, align="center", font=("Arial", 10, "normal"))
     else:
         print("Not a valid state")
+
+
+    missed_states = state_data[~state_data["state"].isin(correct_guess)]
+    missed_states.to_csv("states_to_learn.csv", index=False)
+
+    print(missed_states)
 
 screen.mainloop()
