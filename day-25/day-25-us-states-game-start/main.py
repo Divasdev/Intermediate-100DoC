@@ -14,8 +14,6 @@ while len(correct_guess) < 50:
     user_state = screen.textinput(f"{len(correct_guess)}/50 States Correct", "What's another state name?").strip().title()
     if user_state == "Exit":
             break
-
-
     state_data=pandas.read_csv("50_states.csv")
     matched_state=state_data[state_data["state"]==user_state]
 
