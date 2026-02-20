@@ -1,1 +1,2 @@
 GreenBasket.com | sharma@123gmail.com | B9e%B,e0FiD4fV.,3
+{"amazon": {"email": "angela@gmail.com", "password": "sFjkDSA"}}
