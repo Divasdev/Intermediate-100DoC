@@ -34,3 +34,12 @@
 #
 # count_likes(facebook_posts)
 
+
+
+
+
+try:
+    file=open("file1")
+except FileNotFoundError:
+    file=open("file1","w")
+    file.write("something")
