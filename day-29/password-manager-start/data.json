@@ -1,10 +1,14 @@
 {
-    "apple": {
-        "email": "divas@gmail.com",
-        "password": "jP*ILI4$1U(1#VQhZ"
-    },
     "amazon": {
         "email": "divas@gmail.com",
-        "password": "Z8M2q*%ZFtB$!F"
+        "password": "5GbB+*1uNGGJQ5)*"
+    },
+    "apple": {
+        "email": "divas@gmail.com",
+        "password": "XZHEvr*8Q5iLU53$"
+    },
+    "ebay": {
+        "email": "divas@gmail.com",
+        "password": "$fe3#oI+nZf1c1m+A"
     }
 }
