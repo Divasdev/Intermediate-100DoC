@@ -70,11 +70,6 @@ def find_password():
             messagebox.showinfo(website,f"Email:{email}\n Password:{password}")
         else:
             messagebox.showinfo("error",f"No details for {website} you are searching")
-
-
-
-
-
 window = Tk()
 window.title("Password Manager")
 window.config(padx=20, pady=20)
