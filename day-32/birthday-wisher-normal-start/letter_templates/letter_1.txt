@@ -1,5 +1,9 @@
 Dear [NAME],
 
+
+This is a python automated Email!
+
+
 Happy birthday!
 
 All the best for the year!

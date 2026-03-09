@@ -26,19 +26,15 @@ if (today_month, today_day) in birthday_dict  :
         birthday_person=birthday_dict[today]
         letter_to_send=letter_content.replace("[NAME]",birthday_person["name"])
 
+        my_email="sharmadivas881@gmail.com"
+        APP_PASSWORD="sxmb umwj jqiv dxwn"
 
-my_email="sharmadivas881@gmail.com"
-APP_PASSWORD="sxmb umwj jqiv dxwn"
+        connection = smtplib.SMTP("smtp.gmail.com", 587)
 
-connection = smtplib.SMTP("smtp.gmail.com", 587)
-
-# Transport layer security(TLS)
-connection.starttls()
-connection.login(my_email, APP_PASSWORD)
-connection.sendmail(from_addr=my_email,
-                    to_addrs=birthday_person["email"],
-                    msg="SUBJECT:BIRTHDAY WISH "f"\n\n{letter_to_send}")
-connection.close()
-
-
-
+        # Transport layer security(TLS)
+        connection.starttls()
+        connection.login(my_email, APP_PASSWORD)
+        connection.sendmail(from_addr=my_email,
+                            to_addrs=birthday_person["email"],
+                            msg="Subject:Birthday Wish\n\n{}".format(letter_to_send))
+        connection.close()
