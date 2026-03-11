@@ -1,0 +1,3 @@
+([('main',
+   '/Users/divassharma/PycharmProjects/Intermediate-100DoC/day-31/flash-card-project-start/dist/main',
+   'EXECUTABLE')],)
