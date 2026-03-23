@@ -7,7 +7,6 @@ BACKGROUND_COLOR = "#B1DDC6"
 
 import tkinter as tk
 from tkinter import PhotoImage, Button
-
 #-------------Functions------------------
 try:
     data = pd.read_csv("data/words_to_learn.csv")
